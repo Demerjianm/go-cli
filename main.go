@@ -47,6 +47,7 @@ func sendText(number string, message string) {
 	fmt.Println(result)
 }
 
+// ask user single line question
 func readSingleLine(question string) string {
 	fmt.Println(question)
 	reader := bufio.NewReader(os.Stdin)
